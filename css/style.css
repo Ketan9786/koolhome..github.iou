@@ -1,0 +1,99 @@
+ion-icon {
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.Contact {
+  width: 20px;
+  height: 20px;
+}
+.Copyright {
+  padding: 30px;
+  margin-left: 300px;
+}
+
+.heroimg {
+  width: fit-content;
+  height: fit-content;
+}
+.logoimg {
+  margin-left: 40px;
+  width: 60px;
+  height: 30px;
+}
+
+.container {
+  display: grid;
+  margin-top: 20px;
+}
+
+.btn {
+  position: relative;
+  left: 200px;
+
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.containers {
+  width: 100%;
+  background-color: blanchedalmond;
+}
+.featureslightson {
+  position: relative;
+  right: 0;
+  width: 70%;
+}
+.featureslightsoff {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.acon {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.videoplayer {
+  position: absolute;
+  top: 47%;
+
+  width: 100%;
+  opacity: 0;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+}
+.switch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: auto;
+  height: autoq;
+  border-style: solid;
+  justify-content: space-between;
+  background-color: black;
+  padding: 50px;
+}
+
+.tabellighton{
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.tabellightoff{
+  
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
